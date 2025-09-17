@@ -1,0 +1,152 @@
+body {
+    background-color: #f5f5f5; /* Bland gray background */
+    font-family: Arial, sans-serif; /* Most corporate font ever */
+    margin: 0;
+    padding: 40px;
+    line-height: 1.6;
+    color: #333333; /* Dark gray text */
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* Boring but "professional" */
+    color: #2c2c2c; /* Corporate dark gray */
+    font-size: 28px;
+    font-weight: normal; /* Not too bold, very conservative */
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px; /* Slightly spaced for "sophistication" */
+    text-transform: uppercase; /* Corporate likes CAPS */
+}
+
+/* Button container for organized layout */
+.button-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+/* Corporate button styling */
+button {
+    background-color: #ffffff; /* Clean white */
+    border: 1px solid #cccccc; /* Subtle gray border */
+    color: #444444; /* Dark gray text */
+    padding: 12px 24px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 3px; /* Very slight rounding, not too fun */
+    transition: all 0.2s ease; /* Subtle animation */
+    text-transform: none;
+    min-height: 45px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* Barely visible shadow */
+}
+
+/* Corporate hover effect - very subtle */
+button:hover {
+    background-color: #f8f8f8; /* Slightly grayer white */
+    border-color: #999999; /* Darker gray border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Slightly more shadow */
+}
+
+/* Primary corporate button (for important actions) */
+.btn-primary {
+    background-color: #2e5984; /* Corporate blue */
+    color: #ffffff;
+    border-color: #2e5984;
+}
+
+.btn-primary:hover {
+    background-color: #1e3a5f; /* Darker corporate blue */
+    border-color: #1e3a5f;
+}
+
+/* Secondary corporate button */
+.btn-secondary {
+    background-color: #6c757d; /* Corporate gray */
+    color: #ffffff;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62; /* Darker corporate gray */
+    border-color: #545b62;
+}
+
+/* Success button (corporate green) */
+.btn-success {
+    background-color: #28a745; /* Muted corporate green */
+    color: #ffffff;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34; /* Darker corporate green */
+    border-color: #1e7e34;
+}
+
+/* Warning button (corporate orange) */
+.btn-warning {
+    background-color: #ffc107; /* Corporate yellow/orange */
+    color: #212529;
+    border-color: #ffc107;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Darker corporate yellow */
+    border-color: #e0a800;
+}
+
+/* Danger button (corporate red) */
+.btn-danger {
+    background-color: #dc3545; /* Corporate red */
+    color: #ffffff;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker corporate red */
+    border-color: #c82333;
+}
+
+/* Large corporate button */
+.btn-large {
+    padding: 16px 32px;
+    font-size: 16px;
+    min-height: 55px;
+}
+
+/* Small corporate button */
+.btn-small {
+    padding: 8px 16px;
+    font-size: 12px;
+    min-height: 35px;
+}
+
+/* Corporate footer styling */
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Disabled button state */
+button:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+button:disabled:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    box-shadow: none;
+}
