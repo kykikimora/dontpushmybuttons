@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don't do it.</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+<!doctype html>
 <style>
   /* The button that moves */
   #shyBtn {
@@ -27,33 +20,15 @@
     filter: drop-shadow(0 10px 16px rgba(0,0,0,.35));
   }
 </style>
+</head>
 <body>
-    <header>
-        <h1>My Buttons</h1>
-        <p>Don't push my buttons.</p>
-        
-        <main>
-            <section>
-                <button>Basic Button</button>
-                <button type="submit">A Less Basic Button</button>
-                <button type="reset">Button that resets a form</button>
-                <button disabled>Can't Click This~~</button>
-                <button id="button1" class="button-prime" onclick="alert('Nothing happens.')">Styled Button</button>
-                <button onclick="alert('Fool')">
-                <img src="icon.png" alt="icon">Click me!
-                </button>
-            </section>
 
-            <section>
-                <button onclick="alert('Sir, how dare you.')">Don't click me</button>
-               
-            </section>
+<!-- Use your cut-out SVG file here -->
+<button id="shyBtn" type="button" aria-label="Clickable SVG button">
+  <img src="sebastian.svg" alt="my sweetie">
+</button>
 
-            <section>
-                <button id="shyBtn" type="button" aria-label="Clickable SVG button">
-                <img src="sebastian.svg" alt="my sweetie">
-                </button>
-                <script>
+<script>
   // Get the button
   const btn = document.getElementById('shyBtn');
 
@@ -109,11 +84,5 @@
     alert('Swale Yeah!');
   });
 </script>
-
-            </section>
-
-        </main>
-    </header>
-
 </body>
 </html>
